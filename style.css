@@ -43,10 +43,29 @@ body {
   width: 50%;
 }
 
+.column-7 {
+  width: 50%;
+  vertical-align: middle
+}
+
+.column-8 {
+  width: 60%;
+  vertical-align: middle
+}
+
+.column-9 {
+  width: 60%;
+  vertical-align: middle
+}
+
 * {
   font-size: 100%;
   box-sizing: border-box;
   border: 1px solid red;
   margin: 0;
   line-height: 1;
+}
+
+p {
+  display: inline-block;
 }
