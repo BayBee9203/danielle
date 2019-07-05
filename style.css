@@ -1,8 +1,8 @@
 body {
   background-color: grey;
-  background-image: url(images/papyrus_dark.png);
+  background-image: url(images/papyrus-dark.png);
   background-repeat: repeat;
-  color:black;
+  color:white;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 16px;
   margin: 20px 40px 30px;
@@ -21,4 +21,12 @@ body {
 
 .column-1 {
   width: 30%;
+}
+
+* {
+  font-size: 100%;
+  box-sizing: border-box;
+  border: 1px solid red;
+  margin: 0;
+  line-height: 1;
 }
