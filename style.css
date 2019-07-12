@@ -1,3 +1,11 @@
+* {
+  font-size: 100%;
+  box-sizing: border-box;
+  border: 1px solid red;
+  margin: 0;
+  line-height: 1;
+}
+
 body {
   background-color: grey;
   background-image: url(images/papyrus-dark.png);
@@ -9,61 +17,30 @@ body {
   line-height: 1;
 }
 
+/* header {
+  background-image: url(.jpg;
+  color:
+} */
+
 .float-image {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
 }
 
-.column {
-  float: right;
+.gallery {
+  margin: 10px 50px;
 }
 
-.column-1 {
-  width: 50%;
+.gallery img {
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
 }
 
-.column-2 {
-  width: 50%;
-}
-
-.column-3 {
-  width: 50%;
-}
-
-.column-4 {
-  width: 50%;
-}
-
-.column-5 {
-  width: 50%;
-}
-
-.column-6 {
-  width: 50%;
-}
-
-.column-7 {
-  width: 50%;
-  vertical-align: middle
-}
-
-.column-8 {
-  width: 60%;
-  vertical-align: middle
-}
-
-.column-9 {
-  width: 60%;
-  vertical-align: middle
-}
-
-* {
-  font-size: 100%;
-  box-sizing: border-box;
-  /* border: 1px solid red; */
-  margin: 0;
-  line-height: 1;
+.gallery img:hover {
+  filter: grayscale(0);
 }
 
 p {
